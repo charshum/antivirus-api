@@ -79,7 +79,7 @@ This project use Google Cloud SQL as the DB
 
 Set the following environment variables to connect to a Cloud SQL instance
 
-You may need to change the code to connect to Mysql hosted somewhere else
+You may need to change the code if you are using a Mysql hosted somewhere else
 
 ```
 # Replace INSTANCE_CONNECTION_NAME with the value obtained when configuring your
