@@ -56,3 +56,40 @@ Example output
     "count": 1
 }
 ```
+
+## Build locally
+
+Develop from
+https://github.com/GoogleCloudPlatform/golang-samples/tree/master/cloudsql/mysql/database-sql
+
+Install the following 2 packages
+
+```
+go get github.com/go-sql-driver/mysql
+go get github.com/rs/cors
+```
+
+This project use Google Cloud SQL as the DB
+
+Set the following environment variables to connect to a Cloud SQL instance
+
+You may need to change the code to connect to Mysql hosted somewhere else
+
+```
+# Replace INSTANCE_CONNECTION_NAME with the value obtained when configuring your
+# Cloud SQL instance, available from the Google Cloud Console or from the Cloud SDK.
+# For Cloud SQL 2nd generation instances, this should be in the form of "project:region:instance".
+CLOUDSQL_CONNECTION_NAME: <INSTANCE_CONNECTION_NAME>
+CLOUDSQL_USER: <DB user>
+CLOUDSQL_PASSWORD: <DB password>
+```
+
+Build
+```
+go build
+```
+
+Run
+```
+./go-api
+```
