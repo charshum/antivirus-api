@@ -57,10 +57,16 @@ Example output
 }
 ```
 
-## Build locally
+## Code
 
-Develop from
+This piece of code is develop from
 https://github.com/GoogleCloudPlatform/golang-samples/tree/master/cloudsql/mysql/database-sql
+
+### Deploy to App Engine
+
+Follow the instruction from the repo above
+
+### Build locally
 
 Install the following 2 packages
 
