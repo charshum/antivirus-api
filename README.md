@@ -1,9 +1,10 @@
 # Antivirus API
 
-Publicly hosted on
+~~Publicly hosted on~~
 
-https://api.antivirushk.com/
+~~https://api.antivirushk.com/~~
 
+Was taken down to reduce cost
 ## API List
 
 ### /getQuaratineBuildingCount
